@@ -1,38 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2021-07-12T09:40:53.706Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="Tc8ru88Z_pbYyJeOyzNt" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-12T09:50:49.906Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="8Cg69EyITlg4TsSffHoQ" version="14.8.5" type="github">
   <diagram id="OiAdG7TxA3gKg6y4t-il" name="Page-1">
-    <mxGraphModel dx="782" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1lkWncFinOV1puRLaE7o-2" value="POST {{host}}/services/api/rest/ImportForQuote" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#FF0080;" vertex="1" parent="1">
+        <mxCell id="1lkWncFinOV1puRLaE7o-2" value="POST {{host}}/services/api/rest/ImportForQuote" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#FF0080;" parent="1" vertex="1">
           <mxGeometry y="40" width="520" height="118" as="geometry" />
         </mxCell>
-        <mxCell id="1lkWncFinOV1puRLaE7o-3" value="Import a shipment in the Banyan system." style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1lkWncFinOV1puRLaE7o-2">
+        <mxCell id="1lkWncFinOV1puRLaE7o-3" value="Import a shipment in the Banyan system." style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1lkWncFinOV1puRLaE7o-2" vertex="1">
           <mxGeometry y="26" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="1lkWncFinOV1puRLaE7o-4" value="Initiate the rating process and will return a response immediately" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1lkWncFinOV1puRLaE7o-2">
+        <mxCell id="1lkWncFinOV1puRLaE7o-4" value="Initiate the rating process and will return a response immediately" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1lkWncFinOV1puRLaE7o-2" vertex="1">
           <mxGeometry y="52" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="1lkWncFinOV1puRLaE7o-5" value="Following this request would be a loop of calling GetQuotes to return the quotes on the created shipment" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="1lkWncFinOV1puRLaE7o-2">
+        <mxCell id="1lkWncFinOV1puRLaE7o-5" value="Following this request would be a loop of calling GetQuotes to return the quotes on the created shipment" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="1lkWncFinOV1puRLaE7o-2" vertex="1">
           <mxGeometry y="78" width="520" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1lkWncFinOV1puRLaE7o-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0080;" edge="1" parent="1" source="1lkWncFinOV1puRLaE7o-6" target="1lkWncFinOV1puRLaE7o-8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="oROay4NZP8Qruy1n3SG--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1lkWncFinOV1puRLaE7o-6" target="oROay4NZP8Qruy1n3SG--1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="230" />
+              <mxPoint x="320" y="255" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="1lkWncFinOV1puRLaE7o-6" value="Shipment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="1lkWncFinOV1puRLaE7o-6" value="Shipment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="10" y="200" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1lkWncFinOV1puRLaE7o-7" value="Turvo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#FF0080;" vertex="1" parent="1">
+        <mxCell id="1lkWncFinOV1puRLaE7o-7" value="Turvo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#FF0080;" parent="1" vertex="1">
           <mxGeometry x="100" y="180" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="1lkWncFinOV1puRLaE7o-8" value="1.Shipment From Turvo.&lt;br&gt;2. Initiate the rating process but return immediately." style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="205" y="360" width="330" height="60" as="geometry" />
+        <mxCell id="1lkWncFinOV1puRLaE7o-13" value="Importing Shipment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0080;" parent="1" vertex="1">
+          <mxGeometry x="240" y="210" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="1lkWncFinOV1puRLaE7o-13" value="Importing Shipment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0080;" vertex="1" parent="1">
-          <mxGeometry x="260" y="210" width="120" height="20" as="geometry" />
+        <mxCell id="1lkWncFinOV1puRLaE7o-15" value="Banyan" style="swimlane;fontColor=#FF0080;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="370" y="200" width="390" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="1lkWncFinOV1puRLaE7o-15" value="Banyan" style="swimlane;fontColor=#FF0080;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="370" y="200" width="350" height="200" as="geometry" />
+        <mxCell id="oROay4NZP8Qruy1n3SG--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1lkWncFinOV1puRLaE7o-15" source="oROay4NZP8Qruy1n3SG--1" target="oROay4NZP8Qruy1n3SG--5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oROay4NZP8Qruy1n3SG--1" value="Imported Shipment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1lkWncFinOV1puRLaE7o-15">
+          <mxGeometry x="30" y="40" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oROay4NZP8Qruy1n3SG--5" value="LoadID is generated and returned." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1lkWncFinOV1puRLaE7o-15">
+          <mxGeometry x="30" y="120" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oROay4NZP8Qruy1n3SG--3" value="Rate Process starts separately" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="280" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oROay4NZP8Qruy1n3SG--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.856;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oROay4NZP8Qruy1n3SG--1" target="oROay4NZP8Qruy1n3SG--3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="255" />
+              <mxPoint x="640" y="260" />
+              <mxPoint x="714" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oROay4NZP8Qruy1n3SG--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.461;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oROay4NZP8Qruy1n3SG--5" target="1lkWncFinOV1puRLaE7o-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oROay4NZP8Qruy1n3SG--8" value="LoadID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0080;" vertex="1" parent="1">
+          <mxGeometry x="190" y="320" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
