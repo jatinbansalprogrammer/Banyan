@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-13T04:58:32.040Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="bpd15Smer3dseFYxJY0K" version="14.8.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-13T05:01:18.456Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="0U3vKS32TeDiCedH9aeN" version="14.8.5" type="github" pages="2">
   <diagram id="OiAdG7TxA3gKg6y4t-il" name="Page-1">
     <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -174,7 +174,7 @@
         <mxCell id="3qYp3PzX7lrmJIjdqvdg-0" />
         <mxCell id="3qYp3PzX7lrmJIjdqvdg-1" parent="3qYp3PzX7lrmJIjdqvdg-0" />
         <mxCell id="3qYp3PzX7lrmJIjdqvdg-2" value="{{host}}/services/api/rest/GetQuotes" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#FF0080;" vertex="1" parent="3qYp3PzX7lrmJIjdqvdg-1">
-          <mxGeometry y="40" width="520" height="52" as="geometry" />
+          <mxGeometry width="520" height="52" as="geometry" />
         </mxCell>
         <mxCell id="3qYp3PzX7lrmJIjdqvdg-3" value="This function will retrieve all the valid quotes for a given shipment." style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3qYp3PzX7lrmJIjdqvdg-2">
           <mxGeometry y="26" width="520" height="26" as="geometry" />
@@ -225,6 +225,9 @@
         </mxCell>
         <mxCell id="3qYp3PzX7lrmJIjdqvdg-53" value="2. A set of Quotes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0080;" vertex="1" parent="3qYp3PzX7lrmJIjdqvdg-1">
           <mxGeometry x="120" y="310" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3qYp3PzX7lrmJIjdqvdg-57" value="Just Pass the LoadID created by Banyan for shipment." style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3qYp3PzX7lrmJIjdqvdg-1">
+          <mxGeometry y="52" width="520" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
