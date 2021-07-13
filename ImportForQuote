@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-13T05:01:18.456Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="0U3vKS32TeDiCedH9aeN" version="14.8.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-13T05:04:19.920Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="MFSSo1e8zqNiO8zfrbaC" version="14.8.5" type="github" pages="3">
   <diagram id="OiAdG7TxA3gKg6y4t-il" name="Page-1">
     <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -228,6 +228,67 @@
         </mxCell>
         <mxCell id="3qYp3PzX7lrmJIjdqvdg-57" value="Just Pass the LoadID created by Banyan for shipment." style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3qYp3PzX7lrmJIjdqvdg-1">
           <mxGeometry y="52" width="520" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="03. /services/api/rest/ImportForQuote_Sync" id="VW07h3cwKVJhl0lstl71">
+    <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="U-g3pxEUER873NjEjKzG-0" />
+        <mxCell id="U-g3pxEUER873NjEjKzG-1" parent="U-g3pxEUER873NjEjKzG-0" />
+        <mxCell id="U-g3pxEUER873NjEjKzG-2" value="POST {{host}}/services/api/rest/ImportForQuote" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#FF0080;" vertex="1" parent="U-g3pxEUER873NjEjKzG-1">
+          <mxGeometry y="40" width="520" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="U-g3pxEUER873NjEjKzG-3" value="Import a shipment in the Banyan system." style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="U-g3pxEUER873NjEjKzG-2">
+          <mxGeometry y="26" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="U-g3pxEUER873NjEjKzG-4" value="Initiate the rating process and will return a response immediately" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="U-g3pxEUER873NjEjKzG-2">
+          <mxGeometry y="52" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="U-g3pxEUER873NjEjKzG-5" value="Following this request would be a loop of calling GetQuotes to return the quotes on the created shipment" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="U-g3pxEUER873NjEjKzG-2">
+          <mxGeometry y="78" width="520" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U-g3pxEUER873NjEjKzG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="U-g3pxEUER873NjEjKzG-1" source="U-g3pxEUER873NjEjKzG-7" target="U-g3pxEUER873NjEjKzG-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="230" />
+              <mxPoint x="320" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U-g3pxEUER873NjEjKzG-7" value="Shipment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="U-g3pxEUER873NjEjKzG-1">
+          <mxGeometry x="10" y="200" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U-g3pxEUER873NjEjKzG-8" value="Turvo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#FF0080;" vertex="1" parent="U-g3pxEUER873NjEjKzG-1">
+          <mxGeometry x="100" y="180" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="U-g3pxEUER873NjEjKzG-9" value="1. Importing Shipment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0080;" vertex="1" parent="U-g3pxEUER873NjEjKzG-1">
+          <mxGeometry x="240" y="210" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="U-g3pxEUER873NjEjKzG-10" value="Banyan" style="swimlane;fontColor=#FF0080;startSize=23;" vertex="1" parent="U-g3pxEUER873NjEjKzG-1">
+          <mxGeometry x="370" y="200" width="390" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="U-g3pxEUER873NjEjKzG-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="U-g3pxEUER873NjEjKzG-10" source="U-g3pxEUER873NjEjKzG-12" target="U-g3pxEUER873NjEjKzG-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U-g3pxEUER873NjEjKzG-12" value="Importing Shipment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="U-g3pxEUER873NjEjKzG-10">
+          <mxGeometry x="30" y="40" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U-g3pxEUER873NjEjKzG-13" value="LoadID is generated and returned." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="U-g3pxEUER873NjEjKzG-10">
+          <mxGeometry x="30" y="280" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U-g3pxEUER873NjEjKzG-14" value="&lt;font color=&quot;#ff0080&quot;&gt;2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="U-g3pxEUER873NjEjKzG-10">
+          <mxGeometry x="140" y="90" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="U-g3pxEUER873NjEjKzG-15" value="Rate Process starts separately" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="U-g3pxEUER873NjEjKzG-10">
+          <mxGeometry x="30" y="120" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U-g3pxEUER873NjEjKzG-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.461;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U-g3pxEUER873NjEjKzG-1" source="U-g3pxEUER873NjEjKzG-13" target="U-g3pxEUER873NjEjKzG-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U-g3pxEUER873NjEjKzG-18" value="3 LoadID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0080;" vertex="1" parent="U-g3pxEUER873NjEjKzG-1">
+          <mxGeometry x="190" y="320" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
