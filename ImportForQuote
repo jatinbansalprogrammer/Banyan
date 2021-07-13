@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-13T05:06:22.775Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="pI1FmXdkvSHW-sd_zMAG" version="14.8.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-07-13T05:07:09.268Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="2jQfZVUPytTXMHobY_dM" version="14.8.5" type="github" pages="3">
   <diagram id="OiAdG7TxA3gKg6y4t-il" name="Page-1">
     <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -267,16 +267,13 @@
           <mxGeometry x="240" y="210" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="U-g3pxEUER873NjEjKzG-10" value="Banyan" style="swimlane;fontColor=#FF0080;startSize=23;" vertex="1" parent="U-g3pxEUER873NjEjKzG-1">
-          <mxGeometry x="370" y="200" width="390" height="340" as="geometry" />
+          <mxGeometry x="370" y="200" width="470" height="440" as="geometry" />
         </mxCell>
         <mxCell id="LS-Lc405rFHRBbfT6CRn-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="U-g3pxEUER873NjEjKzG-10" source="U-g3pxEUER873NjEjKzG-12" target="U-g3pxEUER873NjEjKzG-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U-g3pxEUER873NjEjKzG-12" value="Importing Shipment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="U-g3pxEUER873NjEjKzG-10">
           <mxGeometry x="30" y="40" width="240" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="U-g3pxEUER873NjEjKzG-13" value="LoadID is generated and returned." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="U-g3pxEUER873NjEjKzG-10">
-          <mxGeometry x="30" y="195" width="240" height="45" as="geometry" />
         </mxCell>
         <mxCell id="LS-Lc405rFHRBbfT6CRn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="U-g3pxEUER873NjEjKzG-10" source="U-g3pxEUER873NjEjKzG-15">
           <mxGeometry relative="1" as="geometry">
@@ -286,11 +283,16 @@
         <mxCell id="U-g3pxEUER873NjEjKzG-15" value="Rate Process starts&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="U-g3pxEUER873NjEjKzG-10">
           <mxGeometry x="30" y="120" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="U-g3pxEUER873NjEjKzG-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.461;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U-g3pxEUER873NjEjKzG-1" source="U-g3pxEUER873NjEjKzG-13" target="U-g3pxEUER873NjEjKzG-7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="U-g3pxEUER873NjEjKzG-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.461;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U-g3pxEUER873NjEjKzG-1" target="U-g3pxEUER873NjEjKzG-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="417.5" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="U-g3pxEUER873NjEjKzG-18" value="3 LoadID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0080;" vertex="1" parent="U-g3pxEUER873NjEjKzG-1">
           <mxGeometry x="190" y="320" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rtPEkSFmFEGh6jgvNy1m-0" value="{&lt;br&gt;&lt;span&gt;	&lt;/span&gt;&quot;Quotes&quot;:[&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;{&lt;span&gt;	&lt;/span&gt;&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;span&gt;	&lt;/span&gt;&lt;span&gt;	&lt;/span&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&quot;LoadID&quot;: &quot;SameAsPassed&quot;,&lt;br&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&quot;&lt;/span&gt;QuoteID&quot;: &quot;DifferentForEachQuote&quot;&lt;/blockquote&gt;&lt;span&gt;	&lt;/span&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&amp;nbsp;&lt;/span&gt;&amp;nbsp; &amp;nbsp; },&lt;br&gt;&lt;span&gt;	&lt;/span&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;    {	&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&quot;LoadID&quot;: &quot;SameAsPassed&quot;,&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;span&gt;	&lt;/span&gt;&quot;&lt;/span&gt;QuoteID&quot;: &quot;DifferentForEachQuote&quot;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp; },&lt;br&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;]&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" vertex="1" parent="U-g3pxEUER873NjEjKzG-1">
+          <mxGeometry x="400" y="390" width="400" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
