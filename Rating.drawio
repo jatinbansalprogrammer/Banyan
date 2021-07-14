@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-14T04:22:23.150Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="nS8MdxGlebTJ5Ws4AYe8" version="14.8.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-07-14T04:25:56.591Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="mehisU8vYMRvIS9hWdCO" version="14.8.5" type="github" pages="4">
   <diagram id="OiAdG7TxA3gKg6y4t-il" name="01. /services/api/rest/ImportForQuote">
-    <mxGraphModel dx="1108" dy="1328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="1328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -110,6 +110,9 @@
               <mxPoint x="460" y="607" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1ZUipxkFyyNhmukYOwCt-12" value="For each loaded shipment in Banyan, Banyan returns an identifier &quot;LoadID&quot;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-50" width="520" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
