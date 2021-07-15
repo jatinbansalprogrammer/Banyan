@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T05:11:00.155Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="7IzlXHzoM75d40bCUG_1" version="14.8.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-07-15T05:11:45.787Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="eqb-A01CNHyncepnjNM0" version="14.8.6" type="github" pages="4">
   <diagram id="OiAdG7TxA3gKg6y4t-il" name="01. /services/api/rest/ImportForQuote">
-    <mxGraphModel dx="782" dy="1328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1022" dy="1294" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -105,7 +105,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1ZUipxkFyyNhmukYOwCt-15" value="LoadID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;align=left;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="1ZUipxkFyyNhmukYOwCt-15" value="LoadID" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;align=center;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="10" y="-40" width="750" height="52" as="geometry" />
         </mxCell>
         <mxCell id="1ZUipxkFyyNhmukYOwCt-16" value="For each loaded shipment in Banyan, Banyan returns an identifier &quot;LoadID&quot;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1ZUipxkFyyNhmukYOwCt-15" vertex="1">
