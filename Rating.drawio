@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T05:08:59.793Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="FfHKcyFz5osBqB0gFc_-" version="14.8.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-07-15T05:09:52.810Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="eqdi7QNqRBzufhBS_5dx" version="14.8.6" type="github" pages="4">
   <diagram id="OiAdG7TxA3gKg6y4t-il" name="01. /services/api/rest/ImportForQuote">
     <mxGraphModel dx="782" dy="1328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="1lkWncFinOV1puRLaE7o-3" value="Import a shipment in the Banyan System." style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1lkWncFinOV1puRLaE7o-2" vertex="1">
           <mxGeometry y="26" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="1lkWncFinOV1puRLaE7o-4" value="Initiate the rating process and will return a response immediately with LoadID as identifier." style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1lkWncFinOV1puRLaE7o-2" vertex="1">
+        <mxCell id="1lkWncFinOV1puRLaE7o-4" value="Initiate the rating process and will return a response immediately with &quot;LoadID&quot; as identifier." style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1lkWncFinOV1puRLaE7o-2" vertex="1">
           <mxGeometry y="52" width="520" height="26" as="geometry" />
         </mxCell>
         <mxCell id="1lkWncFinOV1puRLaE7o-5" value="Following this request would be a loop of calling GetQuotes to return the quotes on the created shipment." style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="1lkWncFinOV1puRLaE7o-2" vertex="1">
@@ -127,7 +127,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WRix9u_Po0DkRr3BYrsy-18" value="NOTE: When using accessorials, rate request will be sent to only those carriers that accept the selected accessorials." style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
-          <mxGeometry x="10" y="12" width="735" height="26" as="geometry" />
+          <mxGeometry x="10" y="12" width="750" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WRix9u_Po0DkRr3BYrsy-19" value="Turvo" style="swimlane;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="10" y="-220" width="230" height="160" as="geometry" />
