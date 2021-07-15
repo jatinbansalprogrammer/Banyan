@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T05:14:07.457Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="WVtUpDg-bO11Ggrq_NfN" version="14.8.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-07-15T10:20:10.121Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="DVBFCDrlnKx1qwv2n4rn" version="14.8.6" type="github" pages="4">
   <diagram id="OiAdG7TxA3gKg6y4t-il" name="01. /services/api/rest/ImportForQuote">
     <mxGraphModel dx="1022" dy="1294" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -149,13 +149,13 @@
       <root>
         <mxCell id="3qYp3PzX7lrmJIjdqvdg-0" />
         <mxCell id="3qYp3PzX7lrmJIjdqvdg-1" parent="3qYp3PzX7lrmJIjdqvdg-0" />
-        <mxCell id="3qYp3PzX7lrmJIjdqvdg-2" value="{{host}}/services/api/rest/GetQuotes" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#FF0080;" vertex="1" parent="3qYp3PzX7lrmJIjdqvdg-1">
+        <mxCell id="3qYp3PzX7lrmJIjdqvdg-2" value="{{host}}/services/api/rest/GetQuotes" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#FF0080;" parent="3qYp3PzX7lrmJIjdqvdg-1" vertex="1">
           <mxGeometry width="520" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="3qYp3PzX7lrmJIjdqvdg-3" value="This function will retrieve all the valid quotes for a given shipment." style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3qYp3PzX7lrmJIjdqvdg-2">
+        <mxCell id="3qYp3PzX7lrmJIjdqvdg-3" value="This function will retrieve all the valid quotes for a given shipment." style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3qYp3PzX7lrmJIjdqvdg-2" vertex="1">
           <mxGeometry y="26" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3qYp3PzX7lrmJIjdqvdg-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3qYp3PzX7lrmJIjdqvdg-1" source="3qYp3PzX7lrmJIjdqvdg-7">
+        <mxCell id="3qYp3PzX7lrmJIjdqvdg-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="3qYp3PzX7lrmJIjdqvdg-1" source="3qYp3PzX7lrmJIjdqvdg-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="320" y="230" />
@@ -164,24 +164,24 @@
             <mxPoint x="400" y="255" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3qYp3PzX7lrmJIjdqvdg-7" value="Shipment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="3qYp3PzX7lrmJIjdqvdg-1">
+        <mxCell id="3qYp3PzX7lrmJIjdqvdg-7" value="Shipment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="3qYp3PzX7lrmJIjdqvdg-1" vertex="1">
           <mxGeometry x="10" y="200" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3qYp3PzX7lrmJIjdqvdg-8" value="Turvo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#FF0080;" vertex="1" parent="3qYp3PzX7lrmJIjdqvdg-1">
+        <mxCell id="3qYp3PzX7lrmJIjdqvdg-8" value="Turvo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#FF0080;" parent="3qYp3PzX7lrmJIjdqvdg-1" vertex="1">
           <mxGeometry x="100" y="180" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3qYp3PzX7lrmJIjdqvdg-9" value="1 LoadID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0080;" vertex="1" parent="3qYp3PzX7lrmJIjdqvdg-1">
+        <mxCell id="3qYp3PzX7lrmJIjdqvdg-9" value="1 LoadID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0080;" parent="3qYp3PzX7lrmJIjdqvdg-1" vertex="1">
           <mxGeometry x="240" y="210" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3qYp3PzX7lrmJIjdqvdg-10" value="Banyan" style="swimlane;fontColor=#FF0080;startSize=23;" vertex="1" parent="3qYp3PzX7lrmJIjdqvdg-1">
+        <mxCell id="3qYp3PzX7lrmJIjdqvdg-10" value="Banyan" style="swimlane;fontColor=#FF0080;startSize=23;" parent="3qYp3PzX7lrmJIjdqvdg-1" vertex="1">
           <mxGeometry x="370" y="120" width="460" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="3qYp3PzX7lrmJIjdqvdg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3qYp3PzX7lrmJIjdqvdg-10" target="3qYp3PzX7lrmJIjdqvdg-13">
+        <mxCell id="3qYp3PzX7lrmJIjdqvdg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="3qYp3PzX7lrmJIjdqvdg-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="140" y="70" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3qYp3PzX7lrmJIjdqvdg-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.856;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3qYp3PzX7lrmJIjdqvdg-1" target="3qYp3PzX7lrmJIjdqvdg-15">
+        <mxCell id="3qYp3PzX7lrmJIjdqvdg-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.856;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="3qYp3PzX7lrmJIjdqvdg-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="640" y="255" />
@@ -191,41 +191,41 @@
             <mxPoint x="620" y="255" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3qYp3PzX7lrmJIjdqvdg-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.461;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3qYp3PzX7lrmJIjdqvdg-1" target="3qYp3PzX7lrmJIjdqvdg-7">
+        <mxCell id="3qYp3PzX7lrmJIjdqvdg-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.461;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="3qYp3PzX7lrmJIjdqvdg-1" target="3qYp3PzX7lrmJIjdqvdg-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="335" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3qYp3PzX7lrmJIjdqvdg-52" value="{&lt;br&gt;&lt;span&gt; &lt;/span&gt;&quot;Quotes&quot;:[&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;{&lt;span&gt; &lt;/span&gt;&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&quot;LoadID&quot;: &quot;SameAsPassed&quot;,&lt;br&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&quot;&lt;/span&gt;QuoteID&quot;: &quot;DifferentForEachQuote&quot;&lt;/blockquote&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &amp;nbsp;&lt;/span&gt;&amp;nbsp; &amp;nbsp; },&lt;br&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;    { &lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&quot;LoadID&quot;: &quot;SameAsPassed&quot;,&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;span&gt; &lt;/span&gt;&quot;&lt;/span&gt;QuoteID&quot;: &quot;DifferentForEachQuote&quot;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp; },&lt;br&gt;&lt;span&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;]&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" vertex="1" parent="3qYp3PzX7lrmJIjdqvdg-1">
+        <mxCell id="3qYp3PzX7lrmJIjdqvdg-52" value="{&lt;br&gt;&lt;span&gt; &lt;/span&gt;&quot;Quotes&quot;:[&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;{&lt;span&gt; &lt;/span&gt;&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&quot;LoadID&quot;: &quot;SameAsPassed&quot;,&lt;br&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&quot;&lt;/span&gt;QuoteID&quot;: &quot;DifferentForEachQuote&quot;&lt;/blockquote&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &amp;nbsp;&lt;/span&gt;&amp;nbsp; &amp;nbsp; },&lt;br&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;    { &lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&quot;LoadID&quot;: &quot;SameAsPassed&quot;,&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;span&gt; &lt;/span&gt;&quot;&lt;/span&gt;QuoteID&quot;: &quot;DifferentForEachQuote&quot;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp; },&lt;br&gt;&lt;span&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;]&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" parent="3qYp3PzX7lrmJIjdqvdg-1" vertex="1">
           <mxGeometry x="400" y="160" width="400" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="3qYp3PzX7lrmJIjdqvdg-53" value="2. A set of Quotes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0080;" vertex="1" parent="3qYp3PzX7lrmJIjdqvdg-1">
+        <mxCell id="3qYp3PzX7lrmJIjdqvdg-53" value="2. A set of Quotes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0080;" parent="3qYp3PzX7lrmJIjdqvdg-1" vertex="1">
           <mxGeometry x="120" y="310" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3qYp3PzX7lrmJIjdqvdg-57" value="Just Pass the LoadID created by Banyan for shipment." style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3qYp3PzX7lrmJIjdqvdg-1">
+        <mxCell id="3qYp3PzX7lrmJIjdqvdg-57" value="Just Pass the LoadID created by Banyan for shipment." style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3qYp3PzX7lrmJIjdqvdg-1" vertex="1">
           <mxGeometry y="52" width="520" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="03. /services/api/rest/ImportForQuote_Sync" id="VW07h3cwKVJhl0lstl71">
-    <mxGraphModel dx="1022" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1022" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="U-g3pxEUER873NjEjKzG-0" />
         <mxCell id="U-g3pxEUER873NjEjKzG-1" parent="U-g3pxEUER873NjEjKzG-0" />
-        <mxCell id="U-g3pxEUER873NjEjKzG-2" value="POST {{host}}/services/api/rest/ImportForQuote" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#FF0080;" vertex="1" parent="U-g3pxEUER873NjEjKzG-1">
+        <mxCell id="U-g3pxEUER873NjEjKzG-2" value="POST {{host}}/services/api/rest/ImportForQuote" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#FF0080;" parent="U-g3pxEUER873NjEjKzG-1" vertex="1">
           <mxGeometry y="40" width="520" height="118" as="geometry" />
         </mxCell>
-        <mxCell id="U-g3pxEUER873NjEjKzG-3" value="Import a shipment in the Banyan system." style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="U-g3pxEUER873NjEjKzG-2">
+        <mxCell id="U-g3pxEUER873NjEjKzG-3" value="Import a shipment in the Banyan system." style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="U-g3pxEUER873NjEjKzG-2" vertex="1">
           <mxGeometry y="26" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="U-g3pxEUER873NjEjKzG-4" value="Initiate the rating process and will return a response immediately" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="U-g3pxEUER873NjEjKzG-2">
+        <mxCell id="U-g3pxEUER873NjEjKzG-4" value="Initiate the rating process and will return a response immediately" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="U-g3pxEUER873NjEjKzG-2" vertex="1">
           <mxGeometry y="52" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="U-g3pxEUER873NjEjKzG-5" value="Following this request would be a loop of calling GetQuotes to return the quotes on the created shipment" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="U-g3pxEUER873NjEjKzG-2">
+        <mxCell id="U-g3pxEUER873NjEjKzG-5" value="Following this request would be a loop of calling GetQuotes to return the quotes on the created shipment" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="U-g3pxEUER873NjEjKzG-2" vertex="1">
           <mxGeometry y="78" width="520" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="U-g3pxEUER873NjEjKzG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="U-g3pxEUER873NjEjKzG-1" source="U-g3pxEUER873NjEjKzG-7" target="U-g3pxEUER873NjEjKzG-12">
+        <mxCell id="U-g3pxEUER873NjEjKzG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="U-g3pxEUER873NjEjKzG-1" source="U-g3pxEUER873NjEjKzG-7" target="U-g3pxEUER873NjEjKzG-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="320" y="230" />
@@ -233,41 +233,41 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="U-g3pxEUER873NjEjKzG-7" value="Shipment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="U-g3pxEUER873NjEjKzG-1">
+        <mxCell id="U-g3pxEUER873NjEjKzG-7" value="Shipment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="U-g3pxEUER873NjEjKzG-1" vertex="1">
           <mxGeometry x="10" y="200" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U-g3pxEUER873NjEjKzG-8" value="Turvo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#FF0080;" vertex="1" parent="U-g3pxEUER873NjEjKzG-1">
+        <mxCell id="U-g3pxEUER873NjEjKzG-8" value="Turvo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#FF0080;" parent="U-g3pxEUER873NjEjKzG-1" vertex="1">
           <mxGeometry x="100" y="180" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="U-g3pxEUER873NjEjKzG-9" value="1. Importing Shipment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0080;" vertex="1" parent="U-g3pxEUER873NjEjKzG-1">
+        <mxCell id="U-g3pxEUER873NjEjKzG-9" value="1. Importing Shipment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0080;" parent="U-g3pxEUER873NjEjKzG-1" vertex="1">
           <mxGeometry x="240" y="210" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="U-g3pxEUER873NjEjKzG-10" value="Banyan" style="swimlane;fontColor=#FF0080;startSize=23;" vertex="1" parent="U-g3pxEUER873NjEjKzG-1">
+        <mxCell id="U-g3pxEUER873NjEjKzG-10" value="Banyan" style="swimlane;fontColor=#FF0080;startSize=23;" parent="U-g3pxEUER873NjEjKzG-1" vertex="1">
           <mxGeometry x="370" y="200" width="470" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="LS-Lc405rFHRBbfT6CRn-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="U-g3pxEUER873NjEjKzG-10" source="U-g3pxEUER873NjEjKzG-12" target="U-g3pxEUER873NjEjKzG-15">
+        <mxCell id="LS-Lc405rFHRBbfT6CRn-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="U-g3pxEUER873NjEjKzG-10" source="U-g3pxEUER873NjEjKzG-12" target="U-g3pxEUER873NjEjKzG-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U-g3pxEUER873NjEjKzG-12" value="Importing Shipment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="U-g3pxEUER873NjEjKzG-10">
+        <mxCell id="U-g3pxEUER873NjEjKzG-12" value="Importing Shipment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="U-g3pxEUER873NjEjKzG-10" vertex="1">
           <mxGeometry x="30" y="40" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LS-Lc405rFHRBbfT6CRn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="U-g3pxEUER873NjEjKzG-10" source="U-g3pxEUER873NjEjKzG-15">
+        <mxCell id="LS-Lc405rFHRBbfT6CRn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="U-g3pxEUER873NjEjKzG-10" source="U-g3pxEUER873NjEjKzG-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="150" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U-g3pxEUER873NjEjKzG-15" value="Rate Process starts&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="U-g3pxEUER873NjEjKzG-10">
+        <mxCell id="U-g3pxEUER873NjEjKzG-15" value="Rate Process starts&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="U-g3pxEUER873NjEjKzG-10" vertex="1">
           <mxGeometry x="30" y="120" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="U-g3pxEUER873NjEjKzG-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.461;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U-g3pxEUER873NjEjKzG-1" target="U-g3pxEUER873NjEjKzG-7">
+        <mxCell id="U-g3pxEUER873NjEjKzG-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.461;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="U-g3pxEUER873NjEjKzG-1" target="U-g3pxEUER873NjEjKzG-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="417.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U-g3pxEUER873NjEjKzG-18" value="2. A set of Quotes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0080;" vertex="1" parent="U-g3pxEUER873NjEjKzG-1">
+        <mxCell id="U-g3pxEUER873NjEjKzG-18" value="2. A set of Quotes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0080;" parent="U-g3pxEUER873NjEjKzG-1" vertex="1">
           <mxGeometry x="190" y="380" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="rtPEkSFmFEGh6jgvNy1m-0" value="{&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp; ...,&lt;br&gt;&lt;span&gt; &lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&quot;Quotes&quot;:[&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;{&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&quot;LoadID&quot;: &quot;SameAsPassed&quot;,&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&quot;&lt;/span&gt;QuoteID&quot;: &quot;DifferentForEachQuote&quot;&lt;/blockquote&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &amp;nbsp;&lt;/span&gt;&amp;nbsp; &amp;nbsp; },&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;    { &lt;br&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&quot;LoadID&quot;: &quot;SameAsPassed&quot;,&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;span&gt; &lt;/span&gt;&quot;&lt;/span&gt;QuoteID&quot;: &quot;DifferentForEachQuote&quot;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp; },&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;]&lt;/blockquote&gt;}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" vertex="1" parent="U-g3pxEUER873NjEjKzG-1">
+        <mxCell id="rtPEkSFmFEGh6jgvNy1m-0" value="{&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp; ...,&lt;br&gt;&lt;span&gt; &lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&quot;Quotes&quot;:[&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;{&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&quot;LoadID&quot;: &quot;SameAsPassed&quot;,&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&quot;&lt;/span&gt;QuoteID&quot;: &quot;DifferentForEachQuote&quot;&lt;/blockquote&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &amp;nbsp;&lt;/span&gt;&amp;nbsp; &amp;nbsp; },&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;    { &lt;br&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&quot;LoadID&quot;: &quot;SameAsPassed&quot;,&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;span&gt; &lt;/span&gt;&quot;&lt;/span&gt;QuoteID&quot;: &quot;DifferentForEachQuote&quot;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp; },&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;]&lt;/blockquote&gt;}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" parent="U-g3pxEUER873NjEjKzG-1" vertex="1">
           <mxGeometry x="400" y="390" width="400" height="240" as="geometry" />
         </mxCell>
       </root>
