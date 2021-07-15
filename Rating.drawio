@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T05:09:52.810Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="eqdi7QNqRBzufhBS_5dx" version="14.8.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-07-15T05:11:00.155Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="7IzlXHzoM75d40bCUG_1" version="14.8.6" type="github" pages="4">
   <diagram id="OiAdG7TxA3gKg6y4t-il" name="01. /services/api/rest/ImportForQuote">
     <mxGraphModel dx="782" dy="1328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -30,7 +30,7 @@
         <mxCell id="1lkWncFinOV1puRLaE7o-13" value="1. Importing Shipment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0080;" parent="1" vertex="1">
           <mxGeometry x="240" y="-210" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="1lkWncFinOV1puRLaE7o-15" value="Banyan" style="swimlane;fontColor=#FF0080;startSize=23;" parent="1" vertex="1">
+        <mxCell id="1lkWncFinOV1puRLaE7o-15" value="Banyan" style="swimlane;startSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="370" y="-220" width="390" height="160" as="geometry" />
         </mxCell>
         <mxCell id="oROay4NZP8Qruy1n3SG--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1lkWncFinOV1puRLaE7o-15" source="oROay4NZP8Qruy1n3SG--1" target="oROay4NZP8Qruy1n3SG--5" edge="1">
@@ -129,7 +129,7 @@
         <mxCell id="WRix9u_Po0DkRr3BYrsy-18" value="NOTE: When using accessorials, rate request will be sent to only those carriers that accept the selected accessorials." style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
           <mxGeometry x="10" y="12" width="750" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WRix9u_Po0DkRr3BYrsy-19" value="Turvo" style="swimlane;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="WRix9u_Po0DkRr3BYrsy-19" value="Turvo" style="swimlane;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="10" y="-220" width="230" height="160" as="geometry" />
         </mxCell>
         <mxCell id="1lkWncFinOV1puRLaE7o-6" value="Shipment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WRix9u_Po0DkRr3BYrsy-19" vertex="1">
